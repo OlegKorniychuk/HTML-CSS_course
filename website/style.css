@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  background: url("background1.jpg");
+  font-family: Georgia, sans-serif;
+  font-weight: 400;
+}
+
+section {
+  padding-left: 20px;
+  float: left;
+  width: 50%;
+  text-align:center;
+  margin-top: 10px;
+}
+
+.links {
+  clear: left;
+}
+
+@media (orientation: portrait), (max-width: 770px) {
+  section {
+    float: none;
+    width: 100%;
+  }
+
+  .links {
+    clear: none;
+  }
+}
+
+a:link, a:visited {
+  color: salmon;
+  text-decoration: none;
+  background-color: aqua;
+  border: solid 2px salmon;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a:hover, a:active {
+  color: aqua;
+  background-color: salmon;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  border-bottom: 3px solid salmon;
+  background-color: aqua;
+}
+
+.links li{
+  list-style: none;
+}
+
+.main {
+  width: 80%;
+  height: 1080px;
+  margin: auto;
+  padding: 0, 0, 20px, 20px;
+  background-color: aquamarine;
+  border: 5px solid salmon;
+}
+
+ul {
+  margin-right: 20px;
+}
+
+#shitposters {
+  text-align: left;
+  margin-left: 30%;
+}
+
+/*----------------------------------------------------*/
+
+#galery {
+  clear: left;
+}
